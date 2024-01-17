@@ -23,14 +23,15 @@ cd standup-bot
   npm install
   ```
 
-4. **Configure environment variables:**
+3. **Configure environment variables:**
 
-    Create a `.env` file in the root directory and add your Discord bot token:
+Create a `.env` file in the root directory and add your Discord bot token:
    
-   ```bash
-   TOKEN=your_discord_bot_token
-   ```
-5. **Running the bot:**
+```bash
+TOKEN=your_discord_bot_token
+```
+
+4. **Running the bot:**
 ```bash
 node src/index.js
 ```
